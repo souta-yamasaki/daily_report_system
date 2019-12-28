@@ -47,7 +47,7 @@
                 </c:choose>
             </c:forEach>
         </div>
-        <p><a href="url value='/employees/new' />">新規従業員の登録</a>
+        <p><a href="<c:url value='/employees/new' />">新規従業員の登録</a>
 
     </c:param>
 </c:import>
