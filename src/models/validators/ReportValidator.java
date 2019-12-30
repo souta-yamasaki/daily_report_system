@@ -20,13 +20,12 @@ public class ReportValidator {
         }
 
         return errors;
-
     }
 
     private static String _validateTitle(String title) {
         if(title == null || title.equals("")) {
             return "タイトルを入力してください。";
-        }
+            }
 
         return "";
     }
@@ -34,9 +33,8 @@ public class ReportValidator {
     private static String _validateContent(String content) {
         if(content == null || content.equals("")) {
             return "内容を入力してください。";
-        }
+            }
 
         return "";
     }
-
 }
