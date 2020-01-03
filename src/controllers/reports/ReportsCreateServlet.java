@@ -18,7 +18,6 @@ import models.Report;
 import models.validators.ReportValidator;
 import utils.DBUtil;
 
-
 /**
  * Servlet implementation class ReportsCreateServlet
  */
